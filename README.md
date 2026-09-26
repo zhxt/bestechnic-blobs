@@ -6,7 +6,7 @@
 
 ## Platform libraries
 
-Candidate version **0.2.0-rc1** contains three libraries in `lib/bes2700yp/platform/`:
+The three libraries are stored in `lib/bes2700yp/platform/`:
 
 | File | Purpose |
 |---|---|
@@ -14,8 +14,7 @@ Candidate version **0.2.0-rc1** contains three libraries in `lib/bes2700yp/platf
 | `libbes2700yp_flash.a` | Flash HAL, drivers, and device configuration |
 | `libbes2700yp_bootstrap_compat.a` | Startup, CMSIS, and libc compatibility support |
 
-[metadata.json](lib/bes2700yp/platform/metadata.json) records the build configuration, toolchain, file sizes, and SHA256 checksums. The libraries were built with the `dual_v1_24m_t2` profile, `cortex-m33-fpv5-sp-d16-hard` ABI, and GNU Arm Embedded Toolchain 10.3-2021.10.
-The system library adds M55 PARK preparation while the peer CPU remains in reset. The flash and bootstrap compatibility libraries are byte-identical to version 0.1.0. Metadata records the producer commit and its generated manifest checksum; hardware validation of this candidate is pending.
+[metadata.json](lib/bes2700yp/platform/metadata.json) records the library version, build profile, ABI, compiler, file sizes, SHA256 checksums, producer commit, and generated manifest checksum. The system library includes M55 PARK preparation for use while the peer CPU remains in reset.
 
 ## Fetching the libraries
 
