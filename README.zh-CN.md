@@ -6,7 +6,7 @@
 
 ## 平台支持库
 
-版本 **0.1.0** 的三个库位于 `lib/bes2700yp/platform/`：
+候选版本 **0.2.0-rc1** 的三个库位于 `lib/bes2700yp/platform/`：
 
 | 文件 | 内容 |
 |---|---|
@@ -15,6 +15,7 @@
 | `libbes2700yp_bootstrap_compat.a` | 启动、CMSIS 和 libc 兼容支持 |
 
 [metadata.json](lib/bes2700yp/platform/metadata.json) 记录适用配置、工具链、文件大小和 SHA256。库使用 `dual_v1_24m_t2` 配置、`cortex-m33-fpv5-sp-d16-hard` ABI 和 GNU Arm Embedded 10.3-2021.10 工具链构建。
+system 库增加 M55 CPU 保持复位时的 PARK 准备接口；flash 与 bootstrap_compat 库和 0.1.0 版本逐字节一致。元数据记录生成源码提交和生成 manifest 校验值；本候选尚待实板验证。
 
 ## 获取与版本
 
