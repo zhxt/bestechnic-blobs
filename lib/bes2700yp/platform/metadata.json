@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "chip": "bes2700yp",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "abi": "cortex-m33-fpv5-sp-d16-hard",
   "profile": "dual_v1_24m_t2",
   "compiler": "arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)",
@@ -16,12 +16,12 @@
       "size": 77154
     },
     "libbes2700yp_system.a": {
-      "sha256": "f97435599c3a270e00014cd0879366a37fbd818081e0547640a1c47c29b61a9c",
-      "size": 441766
+      "sha256": "8f4761483b5db5884d0c6b99cc355d14cc3d78b29785cd8cc33f54a9b00e6365",
+      "size": 444276
     }
   },
   "public_redistribution": "unconfirmed",
   "license_notice": "../../../THIRD_PARTY_NOTICES.md",
-  "producer_revision": "48b56eeb5962ac3facd4ed5b57727c22cb20b1f4",
-  "producer_manifest_sha256": "fe8f5de1db4357f9b869b2dbe9d195a567ea68805eeace857a39c151cbca274a"
+  "producer_revision": "fb75e7c1ac90565776fc58171181080f08a5a6ae",
+  "producer_manifest_sha256": "b36ffd22ca12ac2b05bd3f345730dfe93f478c965318ba261c5693896c31851a"
 }
